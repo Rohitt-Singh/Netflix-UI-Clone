@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000000;
+}
+
+.hero {
+  height: 700px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent 40%),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent 30%),
+    url("../Images/Banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+header {
+  width: 80%;
+  height: 80px;
+  margin: 15px;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.netflix {
+  margin: 20px;
+}
+
+.translate {
+  color: white;
+  width: 35px;
+}
+
+.left-sec {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.right-sec {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lang {
+  border: 0.5px solid #716c6c;
+  border-radius: 4px;
+  height: 34px;
+  width: 124px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+select {
+  height: 40px;
+}
+
+.sign-in {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #e50914;
+  background-color: #e50914;
+  padding: 5px 14px 5px 14px;
+  border-radius: 4px;
+  height: 37px;
+  width: 86px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.lang select {
+  background: transparent;
+  color: white;
+  font-family: Geneva, Tahoma, sans-serif;
+  border: none;
+  outline: none;
+
+  font-size: 18px;
+}
+
+.main {
+  /* border: 1px solid white; */
+  width: 750px;
+  height: 750px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+
+h1 {
+  font-size: 58px;
+}
+
+.main p {
+  font-size: 21px;
+  margin-top: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main h3 {
+  font-size: 19px;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+.email input {
+  border: 0.5px solid #716c6c;
+  border-radius: 4px;
+  background: transparent;
+  width: 400px;
+  height: 24px;
+  font-size: 18px;
+  padding: 15px;
+  margin-right: 10px;
+}
+
+.email {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.email button {
+  border: 0.5px solid white;
+  border-radius: 3px;
+  background: #e50914;
+  width: 240px;
+  height: 56px;
+  font-size: 20px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.curve {
+  width: 100%;
+  height: 100px;
+
+  border-top: 4px solid #e50914;
+
+  border-top-left-radius: 95% 100%;
+  border-top-right-radius: 95% 100%;
+
+  background: radial-gradient(
+    ellipse at top,
+    rgba(26, 33, 88, 0.9) 0%,
+    rgba(10, 10, 30, 0.9) 40%,
+    black 80%
+  );
+}
+
+#first-heading {
+  color: white;
+  font-size: 25px;
+  margin: 0px 0px 10px 160px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.cards1 {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px 10px 180px;
+}
+
+.card1 {
+  /* border: 1px solid white; */
+  border-radius: 12px;
+  width: 200px;
+  height: 280px;
+  margin-right: 20px;
+}
+
+.cards1 button {
+  /* border: 1px solid white; */
+  border-radius: 6px;
+  font-size: 30px;
+  height: 120px;
+  width: 28px;
+  color: #bbbbbb;
+  background-color: #1a1a1a;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+#second-heading {
+  color: white;
+  font-size: 25px;
+  margin: 80px 0px 10px 160px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.cards2 {
+  display: flex;
+  align-items: center;
+  margin: 30px 0px 10px 180px;
+}
+
+.card2 {
+  /* border: 1px solid white; */
+  border-radius: 18px;
+  width: 290px;
+  height: 350px;
+  margin-right: 20px;
+  background-color: #1b1e3d;
+}
+
+.card2 h3 {
+  color: white;
+  margin: 25px 0px 10px 20px;
+  font-size: 24px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.card2 p {
+  color: #bcb9bf;
+  margin: 25px 0px 10px 20px;
+  font-size: 19px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+.ques-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.ques-card {
+  /* border: 1px solid white; */
+  border-radius: 1px;
+  background-color: #2d2d2d;
+  width: 75%;
+  height: 85px;
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ques-card button {
+  font-size: 50px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+  margin-right: 35px;
+}
+
+.ques-card p {
+  font-size: 29px;
+  margin-left: 30px;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mail h3 {
+  color: white;
+  font-size: 19px;
+  margin-top: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+
+footer {
+  margin-right: 190px;
+  height: 550px;
+}
+
+footer p {
+  color: #b3b3b3;
+  font-size: 20px;
+  margin: 80px 0px 10px 160px;
+  font-family: Geneva, Tahoma, sans-serif;
+}
+
+footer a {
+  color: #b3b3b3;
+}
+
+.column a {
+  color: #b3b3b3;
+  font-family: Geneva, Tahoma, sans-serif;
+  margin-bottom: 12px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin: 50px 0px 10px 160px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.lang2 {
+  border: 0.5px solid #716c6c;
+  border-radius: 4px;
+  height: 34px;
+  width: 124px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 20px;
+  margin: 70px 0px 10px 160px;
+}
+
+.lang2 select {
+  background: transparent;
+  color: white;
+  font-family: Geneva, Tahoma, sans-serif;
+  border: none;
+  outline: none;
+
+  font-size: 18px;
+}
